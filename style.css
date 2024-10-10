@@ -1,0 +1,135 @@
+.about h2 {
+  font-size: 25px;
+  color: gray;
+}
+
+.employees,
+.services,
+.news  {
+  color: #313437;
+}
+
+.employees p,
+.services p,
+.news p  {
+  color: #7d8285;
+}
+
+.employees h2,
+.services h2,
+.news h2  {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .employees h2,
+  .services h2,
+  .news h2  {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.employees .intro,
+.services .intro,
+.news .intro  {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.employees .intro p,
+.services .intro p,
+.news .intro p  {
+  margin-bottom: 0;
+}
+
+.employees .row,
+.services .row,
+.news .row  {
+  padding: 50px 0;
+}
+
+.employees .item,
+.services .item,
+.news .item  {
+  text-align: center;
+}
+
+.employees .item .box {
+  text-align: center;
+  padding: 30px;
+  background-color: #eef4f7;
+  margin-bottom: 30px;
+  height: 500px;
+}
+
+.services .item .box {
+  text-align: left;
+  padding: 30px;
+  background-color: #eef4f7;
+  margin-bottom: 30px;
+  height: 230px;
+}
+
+.news .item .box  {
+  text-align: left;
+  padding: 30px;
+  background-color: #eef4f7;
+  margin-bottom: 30px;
+  height: 200px;
+}
+
+.employees .item .name  {
+  font-weight: bold;
+  margin-top: 28px;
+  margin-bottom: 8px;
+  color: inherit;
+}
+
+.employees .item .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d0d0d0;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.employees .item .description,
+.services .item .description,
+.news .item .description  {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.employees .item img  {
+  max-width: 160px;
+}
+
+.news .row {
+  position: relative;
+}
+
+.news .overlay {
+  position: absolute;
+  width: calc(100% - 24px);
+  height: 200px;
+  left: 12px;
+  top: 280px;
+  background: rgb(255,255,255);
+  background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1));
+}
+
+.news .btn {
+  margin-top: -100px;
+}
+
+.news .news-title {
+  display: flex;
+  justify-content: space-between;
+}
