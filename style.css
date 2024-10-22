@@ -36,6 +36,10 @@ body::after {
   z-index: -1;   
 }
 
+body {
+  margin-top: 100px;
+}
+
 .nav-link {
   font-size: 23px;
   color: #29470a;
