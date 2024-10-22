@@ -41,14 +41,6 @@ body::after {
   color: #29470a;
 }
 
-@media (max-width: 1992px) {
-  nav .container-fluid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-}
-
 .about .box {
   display: flex;
   justify-content: space-between;
