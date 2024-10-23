@@ -79,6 +79,13 @@ body {
   }
 }
 
+@media (max-width: 767px) {
+  
+  .list-2 {
+    margin-top: -15px;
+  }
+}
+
 .about .box {
   display: flex;
   justify-content: space-between;
