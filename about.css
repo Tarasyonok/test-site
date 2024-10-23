@@ -119,6 +119,7 @@ body {
   .list-2 {
     margin-top: -15px;
   }
+
 }
 
 .reasons {
@@ -130,6 +131,10 @@ body {
   .reasons {
     width: 100%;
   }
+  .will-do-and-not ul {
+    width: 100% !important;
+  }
+
 }
 
 .ag-format-container {
