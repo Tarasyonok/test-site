@@ -273,11 +273,11 @@ body {
 
 @media (max-width: 575px) {
   .card {
-    width: 350px;
+    width: 300px;
   }
 
   .right .card {
-    flex-basis: 350px;
+    flex-basis: 300px;
   }
 }
 
