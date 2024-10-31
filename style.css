@@ -177,12 +177,11 @@ body {
   margin: 4px 0;
   border-left: 2px solid #305708;
   transition: 0.5s;
-  cursor: pointer;
 }
 
-.questions .list ul li:hover {
+/* .questions .list ul li:hover {
   left: 10px;
-}
+} */
 .questions .list ul li span {
   position: relative;
   padding: 4px 8px 7px;
@@ -191,9 +190,9 @@ body {
   z-index: 1;
   transition: 0.5s;
 }
-.questions .list ul li:hover span {
+/* .questions .list ul li:hover span {
   color: #fff;
-}
+} */
 .questions .list ul li:before {
   content: "";
   position: absolute;
@@ -204,9 +203,9 @@ body {
   transform-origin: left;
   transition: 0.5s;
 }
-.questions .list ul li:hover:before {
+/* .questions .list ul li:hover:before {
   transform: scaleX(1);
-}
+} */
 
 .about-mediation {
   font-size: 20px;
